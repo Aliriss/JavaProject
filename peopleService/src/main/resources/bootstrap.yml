@@ -1,0 +1,17 @@
+spring:
+  # 服务名称
+  application:
+    name: people-server-0
+  # 开发环境
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        username: nacos
+        password: nacos
+        context-path: /nacos
+        server-addr: localhost:8848
+        file-extension: yaml
+
+

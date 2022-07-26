@@ -1,0 +1,20 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/hospital
+    username: postgres
+    password: 123.com
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8848
+        namespace: public
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
