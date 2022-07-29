@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8848
+        namespace: public
+        group: dev
+
+
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql:///hospital
+    username: postgres
+    password: 123.com
+mybatis:
+  mapper-locations: classpath:mappers/*xml
+  type-aliases-package: com.example.people-service.mybatis.entity
+server:
+  port: ${port:80}
+

@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8848
+        namespace: public
+#        group: dev
+        cluster-name: HZ
+
+  datasource:
+    url: jdbc:postgresql:///hospital
+    username: postgres
+    password: 123.com
+mybatis:
+  mapper-locations: classpath:mappers/*xml
+  type-aliases-package: com.example.order-service.mybatis.entity
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: ${port:81}
+
+
+
+
