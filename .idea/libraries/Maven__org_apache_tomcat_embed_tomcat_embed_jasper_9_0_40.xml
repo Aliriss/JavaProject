@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.40">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../env/java/mvnRepository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.40/tomcat-embed-jasper-9.0.40.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../env/java/mvnRepository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.40/tomcat-embed-jasper-9.0.40-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../env/java/mvnRepository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.40/tomcat-embed-jasper-9.0.40-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

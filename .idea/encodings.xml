@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/OrderService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PeopleService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PeopleService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/address/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/address/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/cmdb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/cmdb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/consistency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/consistency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/console/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/console/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/distribution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/distribution/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/istio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/istio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/naming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/naming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin-default-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin-default-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/encryption/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/encryption/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/sys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/sys/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/config-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/config-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/core-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/core-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/naming-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/naming-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-2.1.0/test/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

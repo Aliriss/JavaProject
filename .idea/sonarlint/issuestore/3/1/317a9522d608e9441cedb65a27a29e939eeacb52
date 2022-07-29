@@ -1,0 +1,52 @@
+
+[	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+\	java:S112Ô"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+\	java:S112ß"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+v
+java:S1192u"[Define a constant instead of duplicating this literal "Invalid map field number: " 3 times.(…›‚Šşÿÿÿÿ
+d
+java:S1192Ò"HDefine a constant instead of duplicating this literal "map key" 8 times.(Å¨Ûäüÿÿÿÿ
+f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß”â¢
+f	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì–õî
+f	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ìø
+g	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+f
+java:S1301p"KReplace this "switch" statement by "if" statements to increase readability.(³›¯°ùÿÿÿÿ
+g
+java:S1301Ğ"KReplace this "switch" statement by "if" statements to increase readability.(³›¯°ùÿÿÿÿ
+g
+java:S1301Û"KReplace this "switch" statement by "if" statements to increase readability.(³›¯°ùÿÿÿÿ
+u
+java:S1488º"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+l	java:S116"QRename this field "group_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô³ûÿÿÿÿÿ
+k	java:S116§"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼™ó üÿÿÿÿ
+l	java:S116¾"VRename this field "extendInfo_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™„éè
+y
+java:S4144—"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 894.(÷Ë¶1
+D
+java:S1948"(Make "group_" transient or serializable.(Ô³ûÿÿÿÿÿ
+D
+java:S1948¾"-Make "extendInfo_" transient or serializable.(™„éè
+s
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ô³ûÿÿÿÿÿ
+D
+java:S1940F")Use the opposite operator ("==") instead.(«‹¦œøÿÿÿÿ
+]
+java:S1126Ë"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+k	java:S116ö"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+g	java:S116ø"QRename this field "group_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Åøå
+k	java:S116Ä"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ã¡ıøÿÿÿÿ
+l	java:S116ç"VRename this field "extendInfo_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™„éè
+V
+java:S1161Î":Add the "@Override" annotation above this method signature(“ŠÅÀüÿÿÿÿ
+Q
+java:S1161Ù":Add the "@Override" annotation above this method signature(”¶ãø
+?	java:S108÷")Either remove or fill this block of code.(º„ç½
+Z
+java:S1854œ"CRemove this useless assignment to local variable "from_bitField0_".(ÆÓ¡€
+K
+java:S1481œ"4Remove this unused "from_bitField0_" local variable.(ÆÓ¡€
+o
+java:S2975¦"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+3
+java:S1116ò"Remove this empty statement.(‚åÍÈ
