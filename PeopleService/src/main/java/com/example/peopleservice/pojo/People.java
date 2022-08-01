@@ -2,6 +2,8 @@ package com.example.peopleservice.pojo;
 
 import lombok.Data;
 
+import javax.annotation.sql.DataSourceDefinition;
+
 /**
  * @classDesc: 功能描述：people class
  * @author: all
@@ -9,6 +11,7 @@ import lombok.Data;
  * @copyright: 北京众阳
  */
 @Data
+
 public class People {
 
     private Integer id;

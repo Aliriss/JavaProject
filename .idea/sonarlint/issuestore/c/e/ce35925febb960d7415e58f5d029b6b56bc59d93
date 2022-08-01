@@ -1,0 +1,11 @@
+
+K
+java:S1066‡"/Merge this if statement with the enclosing one.(µ ëúÿÿÿÿ
+
+java:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÙæ³şÿÿÿÿ
+h
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.(´îÖ
+V
+java:S1117T"@Rename "switchDomain" which hides the field declared at line 49.(²ı±ß
+Z
+java:S1874¥">Remove this use of "isSupportUpgradeFrom1X"; it is deprecated.(£øóûÿÿÿÿ

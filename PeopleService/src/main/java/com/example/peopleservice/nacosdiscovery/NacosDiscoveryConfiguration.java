@@ -25,12 +25,12 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
-@EnableDiscoveryClient
-@Configuration
+// @EnableDiscoveryClient
+// @Configuration
 public class NacosDiscoveryConfiguration {
-    @LoadBalanced
-    @Bean
-    public RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
+    // @LoadBalanced
+    // @Bean
+    // public RestTemplate restTemplate(){
+    //     return new RestTemplate();
+    // }
 }

@@ -21,11 +21,11 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/people")
-@RefreshScope
+// @RefreshScope
 public class PeopleController {
 
-    @Resource
-    private RestTemplate restTemplate;
+    // @Resource
+    // private RestTemplate restTemplate;
 
     @Resource
     private IPeopleService peopleService;
@@ -47,8 +47,8 @@ public class PeopleController {
         return data;
     }
 
-    @GetMapping("/data/order")
-    public String getDataFromOrder(){
-        return restTemplate.getForObject("http://order-service/order/data",String.class);
-    }
+    // @GetMapping("/data/order")
+    // public String getDataFromOrder(){
+    //     return restTemplate.getForObject("http://order-service/order/data",String.class);
+    // }
 }
