@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/config-test/config-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/config-test/config-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/core-test/core-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/core-test/core-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/address/nacos-address.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/address/nacos-address.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/nacos-all.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/nacos-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/api/nacos-api.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/api/nacos-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/auth/nacos-auth.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/auth/nacos-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/plugin/auth/nacos-auth-plugin.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/plugin/auth/nacos-auth-plugin.iml" />

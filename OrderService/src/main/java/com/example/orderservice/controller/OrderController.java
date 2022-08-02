@@ -3,7 +3,7 @@ package com.example.orderservice.controller;
 import com.example.orderservice.pojo.Orders;
 import com.example.orderservice.pojo.OrderPeople;
 import com.example.orderservice.service.IOrderService;
-import com.example.peopleservice.pojo.People;
+import com.example.people.pojo.People;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;

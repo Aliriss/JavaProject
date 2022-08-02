@@ -1,6 +1,6 @@
 package com.example.orderservice.pojo;
 
-import com.example.peopleservice.pojo.People;
+import com.example.people.pojo.People;
 import lombok.Data;
 
 /**

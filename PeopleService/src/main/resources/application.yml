@@ -6,20 +6,25 @@ spring:
 #        password: nacos
 #        server-addr: localhost:8848
 #        namespace: public
-#        group: dev
-#  profiles:
-#    active: dev
   datasource:
-    db1:
-      url: jdbc:postgresql:///db1
-      username: postgres
-      password: 123.com
-    db2:
-      url: jdbc:postgresql:///db2
-      username: postgres
-      password: 123.com
-  application:
-    name: people-service
+    dynamic:
+      # 主数据库
+      primary: db1
+      # 严格匹配数据源，默认为false，true：未匹配指定数据源抛异常，false：使用默认数据库
+      strict: false
+      datasource:
+        db1:
+          url: jdbc:postgresql:///db1
+          username: postgres
+          password: 123.com
+          driver-class-name: org.postgresql.Driver
+        db2:
+          url: jdbc:postgresql:///db2
+          username: postgres
+          password: 123.com
+          driver-class-name: org.postgresql.Driver
+
+
 #    db3:
 #      url: jdbc:postgresql:///db3
 #      username: postgres
@@ -27,9 +32,7 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-  .
   mapper-locations: classpath:mappers/*.xml
-#  config-location: classpath:mappers/*.xml
 server:
   port: ${port:80}
 

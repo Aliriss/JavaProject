@@ -2,9 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
         "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
-
-<mapper namespace="com.example.peopleservice.mapper.PeopleMapper">
-    <resultMap id="peopleResultMap" type="com.example.peopleservice.pojo.People">
+<mapper namespace="com.example.people.mapper.PeopleMapper">
+    <resultMap id="peopleResultMap" type="com.example.people.pojo.People">
         <result property="id" column="id" />
     </resultMap>
     <select id="getById" resultMap="peopleResultMap">
@@ -16,4 +15,5 @@
     <select id="list" resultMap="peopleResultMap">
         select * from people;
     </select>
+
 </mapper>
