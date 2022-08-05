@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/PeopleService/pom.xml" />
         <option value="$PROJECT_DIR$/OrderService/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-2.1.0/pom.xml" />
+        <option value="$PROJECT_DIR$/FeignApi/pom.xml" />
       </list>
     </option>
   </component>

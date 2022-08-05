@@ -4,7 +4,7 @@
         "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 
 <mapper namespace="com.example.people.mapper.OrderMapper">
-    <resultMap id="orderResultMap" type="com.example.people.pojo.Orders">
+    <resultMap id="orderResultMap" type="com.example.feignapi.pojo.Orders">
         <result property="id" column="id" />
         <result property="peopleId" column="people_id"/>
     </resultMap>

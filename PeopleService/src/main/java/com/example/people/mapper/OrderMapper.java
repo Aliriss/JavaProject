@@ -1,10 +1,8 @@
 package com.example.people.mapper;
 
-import com.baomidou.dynamic.datasource.annotation.DS;
-import com.example.people.pojo.Orders;
+import com.example.feignapi.pojo.Orders;
+import com.example.people.annotion.RoutingWith;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Property;
-import org.springframework.core.annotation.Order;
 
 import java.util.List;
 
@@ -15,11 +13,12 @@ import java.util.List;
  * @copyright: 北京众阳
  */
 @Mapper
+@RoutingWith
 public interface OrderMapper {
     /**
      * list order list
      * @return
      */
-    @DS("db1")
+    @RoutingWith()
     List<Orders> list();
 }

@@ -62,9 +62,21 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- <dependency> -->
+        <!--     <groupId>com.example</groupId> -->
+        <!--     <artifactId>PeopleService</artifactId> -->
+        <!--     <version>0.0.1-SNAPSHOT</version> -->
+        <!--     <scope>compile</scope> -->
+        <!-- </dependency> -->
+        <!-- Feign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.2.2.RELEASE</version>
+        </dependency>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>PeopleService</artifactId>
+            <artifactId>FeignApi</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FeignApi/FeignApi.iml" filepath="$PROJECT_DIR$/FeignApi/FeignApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/NacosSpringCloud.iml" filepath="$PROJECT_DIR$/NacosSpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/PeopleService/PeopleService.iml" filepath="$PROJECT_DIR$/PeopleService/PeopleService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/config-test/config-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/config-test/config-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/core-test/core-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/core-test/core-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/address/nacos-address.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/address/nacos-address.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/api/nacos-api.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/api/nacos-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/auth/nacos-auth.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/auth/nacos-auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/plugin/auth/nacos-auth-plugin.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/plugin/auth/nacos-auth-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/client/nacos-client.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/client/nacos-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/cmdb/nacos-cmdb.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/cmdb/nacos-cmdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/common/nacos-common.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/common/nacos-common.iml" />
@@ -19,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/console/nacos-console.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/console/nacos-console.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/core/nacos-core.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/core/nacos-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/distribution/nacos-distribution.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/distribution/nacos-distribution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/plugin/encryption/nacos-encryption-plugin.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/plugin/encryption/nacos-encryption-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/example/nacos-example.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/example/nacos-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/istio/nacos-istio.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/istio/nacos-istio.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/naming/nacos-naming.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/naming/nacos-naming.iml" />
@@ -27,7 +24,6 @@
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/plugin-default-impl/nacos-plugin-default-impl.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/plugin-default-impl/nacos-plugin-default-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/sys/nacos-sys.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/sys/nacos-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/nacos-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/nacos-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos-2.1.0/test/naming-test/naming-test.iml" filepath="$PROJECT_DIR$/nacos-2.1.0/test/naming-test/naming-test.iml" />
     </modules>
   </component>
 </project>

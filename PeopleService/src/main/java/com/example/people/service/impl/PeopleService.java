@@ -1,8 +1,9 @@
 package com.example.people.service.impl;
 
-import com.example.people.pojo.People;
+import com.example.feignapi.pojo.People;
 import com.example.people.mapper.PeopleMapper;
 import com.example.people.service.IPeopleService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -15,6 +16,7 @@ import java.util.List;
  * @copyright: 北京众阳
  */
 @Service
+@Slf4j
 public class PeopleService implements IPeopleService {
     @Resource
     private PeopleMapper peopleMapper;
@@ -23,6 +25,7 @@ public class PeopleService implements IPeopleService {
         // List<People> peoples = new ArrayList<>();
         // peoples.add(new People(1,"zhangsan"));
         // return peoples;
+
         return peopleMapper.list();
     }
 

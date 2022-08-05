@@ -10,7 +10,7 @@ spring:
         cluster-name: HZ
 
   datasource:
-    url: jdbc:postgresql:///hospital
+    url: jdbc:postgresql:///db1
     username: postgres
     password: 123.com
 mybatis:

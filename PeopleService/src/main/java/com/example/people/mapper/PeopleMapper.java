@@ -1,9 +1,8 @@
 package com.example.people.mapper;
 
-import com.baomidou.dynamic.datasource.annotation.DS;
-import com.example.people.pojo.People;
+import com.example.feignapi.pojo.People;
+import com.example.people.annotion.RoutingWith;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -13,17 +12,22 @@ import java.util.List;
  * @date: 2022/7/25 17:01
  * @copyright: 北京众阳
  */
-// @Mapper
+@Mapper
+
 public interface PeopleMapper {
     /**
      * 列出所有用户
      * @return
      */
-    @DS("db2")
-    // @Select("Select * from people")
+    @RoutingWith("db2")
     List<People> list();
-    @DS("db2")
-    // @Select("select * from people where id=${id}")
+
+    /**
+     * 通过id查找用户
+     * @param id
+     * @return
+     */
+    @RoutingWith("db2")
     People getById(Integer id);
 
 }

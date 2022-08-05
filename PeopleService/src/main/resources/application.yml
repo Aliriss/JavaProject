@@ -1,28 +1,67 @@
 spring:
-#  cloud:
-#    nacos:
-#      discovery:
-#        username: nacos
-#        password: nacos
-#        server-addr: localhost:8848
-#        namespace: public
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8848
+        namespace: public
+#  　使用ds注解配置主从数据库
+#  datasource:
+#    dynamic:
+#      # 主数据库
+#      primary: db1
+#      # 严格匹配数据源，默认为false，true：未匹配指定数据源抛异常，false：使用默认数据库
+#      strict: false
+#      datasource:
+#        db1:
+#          url: jdbc:postgresql:///db1
+#          username: postgres
+#          password: 123.com
+#          driver-class-name: org.postgresql.Driver
+#        db2:
+#          url: jdbc:postgresql:///db2
+#          username: postgres
+#          password: 123.com
+#          driver-class-name: org.postgresql.Driver
+#  datasource:
+#    db1:
+#      url: jdbc:postgresql:///db1
+##      jdbc-url: jdbc:postgresql:///db1
+#      username: postgres
+#      password: 123.com
+#      driver-class-name: org.postgresql.Driver
+#      type: com.alibaba.druid.pool.DruidDataSource
+#    db2:
+#      url: jdbc:postgresql:///db2
+##      jdbc-url: jdbc:postgresql:///db2
+#      username: postgres
+#      password: 123.com
+#      driver-class-name: org.postgresql.Driver
+#      type: com.alibaba.druid.pool.DruidDataSource
+
   datasource:
-    dynamic:
-      # 主数据库
-      primary: db1
-      # 严格匹配数据源，默认为false，true：未匹配指定数据源抛异常，false：使用默认数据库
-      strict: false
-      datasource:
-        db1:
-          url: jdbc:postgresql:///db1
-          username: postgres
-          password: 123.com
-          driver-class-name: org.postgresql.Driver
-        db2:
-          url: jdbc:postgresql:///db2
-          username: postgres
-          password: 123.com
-          driver-class-name: org.postgresql.Driver
+##    url: jdbc:postgresql:///db1
+#    jdbc-url: jdbc:postgresql:///db1
+#    username: postgres
+#    password: 123.com
+#    driver-class-name: org.postgresql.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+    default-datasource: db1
+    db1:
+  #    url: jdbc:postgresql:///db1
+      jdbc-url: jdbc:postgresql:///db1
+      username: postgres
+      password: 123.com
+      driver-class-name: org.postgresql.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+    db2:
+  #    url: jdbc:postgresql:///db2
+      jdbc-url: jdbc:postgresql:///db2
+      username: postgres
+      password: 123.com
+      driver-class-name: org.postgresql.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
 
 
 #    db3:

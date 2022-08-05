@@ -9,17 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="PeopleService" />
         <module name="nacos-sys" />
-        <module name="nacos-encryption-plugin" />
         <module name="nacos-client" />
-        <module name="core-test" />
         <module name="nacos-common" />
         <module name="nacos-cmdb" />
         <module name="nacos-auth" />
         <module name="nacos-example" />
         <module name="nacos-consistency" />
         <module name="nacos-plugin-default-impl" />
-        <module name="nacos-auth-plugin" />
-        <module name="naming-test" />
         <module name="nacos-naming" />
         <module name="nacos-istio" />
         <module name="nacos-console" />
@@ -27,13 +23,14 @@
         <module name="nacos-address" />
         <module name="nacos-config" />
         <module name="nacos-api" />
-        <module name="config-test" />
+        <module name="FeignApi" />
         <module name="OrderService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-test" target="1.8" />
       <module name="core-test" target="1.8" />
+      <module name="FeignApi" target="1.8" />
       <module name="nacos-address" target="1.8" />
       <module name="nacos-all" target="1.8" />
       <module name="nacos-api" target="1.8" />

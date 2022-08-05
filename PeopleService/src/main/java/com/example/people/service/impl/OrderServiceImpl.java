@@ -1,8 +1,8 @@
 package com.example.people.service.impl;
 
+import com.example.feignapi.pojo.Orders;
 import com.example.people.service.IOrderService;
 import com.example.people.mapper.OrderMapper;
-import com.example.people.pojo.Orders;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
